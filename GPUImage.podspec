@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.tvos.deployment_target = '9.0'
   s.ios.exclude_files = 'framework/Source/Mac'
+  s.tvos.exclude_files = 'framework/Source/Mac'
   s.ios.frameworks   = ['OpenGLES', 'CoreMedia', 'QuartzCore', 'AVFoundation']
   s.tvos.frameworks   = ['OpenGLES', 'CoreMedia', 'QuartzCore', 'AVFoundation']
   
